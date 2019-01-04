@@ -1,0 +1,365 @@
+/* CSS Document */
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Fontfabric
+ * License URL: http://www.fontspring.com/licenses/fontfabric/webfont
+ *
+ *
+ */
+ 
+#vert_counter, #hrz_counter{
+width:150px;
+position:fixed;
+line-height: 50px;
+text-align: center;
+height:50px;
+top:0px;
+left: 0px;
+border: 5px black solid;
+background-color:#fff;
+font-family: sans-serif;
+font-weight: 900;
+letter-spacing: 1px;
+font-size: 20px;
+z-index: 100;  
+}
+
+@font-face {
+    font-family: 'nexa_slab_regular_freeregular';
+    src: url('Nexa_Slab_Regular_Free-webfont.eot');
+    src: url('Nexa_Slab_Regular_Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Slab_Regular_Free-webfont.woff2') format('woff2'),
+         url('Nexa_Slab_Regular_Free-webfont.woff') format('woff'),
+         url('Nexa_Slab_Regular_Free-webfont.ttf') format('truetype'),
+         url('Nexa_Slab_Regular_Free-webfont.svg#nexa_slab_regular_freeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_rust_sansblack';
+    src: url('NexaRustSans-Black-Free-webfont.eot');
+    src: url('NexaRustSans-Black-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NexaRustSans-Black-Free-webfont.woff2') format('woff2'),
+         url('NexaRustSans-Black-Free-webfont.woff') format('woff'),
+         url('NexaRustSans-Black-Free-webfont.ttf') format('truetype'),
+         url('NexaRustSans-Black-Free-webfont.svg#nexa_rust_sansblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa_rust_script_l0regular';
+    src: url('NexaRustScriptL-0-Free-webfont.eot');
+    src: url('NexaRustScriptL-0-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NexaRustScriptL-0-Free-webfont.woff2') format('woff2'),
+         url('NexaRustScriptL-0-Free-webfont.woff') format('woff'),
+         url('NexaRustScriptL-0-Free-webfont.ttf') format('truetype'),
+         url('NexaRustScriptL-0-Free-webfont.svg#nexa_rust_script_l0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #111215;
+	background: url(../images/bluedust.png);
+	webkit-transform: translateZ(0);
+}
+
+#melvin {
+	display: block;
+	width: 300px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 120px;
+	z-index: 350;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+#meteor {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: 'nexa_rust_sansblack';
+	font-size: 140px;
+	color: #fff;
+	position: absolute;
+	top: 700px;
+}
+
+#adventure {
+	display: inline-block;
+	width: 100%;
+	text-align:center;
+	font-family: 'nexa_rust_script_l0regular';
+	font-size: 120px;
+	color: #D1D1D1;
+	position: absolute;
+	top: 630px;
+	z-index: 1;
+}
+
+.hi {
+	color: #d32323;
+	padding-top: 70px;
+	margin-left: 76px;
+	font-family: 'nexa_slab_regular_freeregular'; 
+	font-size: 50px;
+}
+
+#bubble {
+  display: block;
+  top: 300px;
+  margin-left: 57.932%;
+  width: 200px;
+  height: 182px;
+  background: url(../images/textbubble.svg);
+  background-size: 200px 182px;
+  position: absolute;
+}
+
+#crash {
+	display: block;
+	top: 220px;
+	width: 71px;
+	margin-left: 720px;
+	margin-right: auto;
+	position: absolute;
+	-webkit-animation-duration: 1.5s;
+}
+
+#comet{
+	display: block;
+	top: 1400px;
+	width: 570px;
+	margin-left: 1500px;
+	margin-right: 0px;
+	position: relative;
+	z-index: 50;
+}
+	
+.space {
+	background: url(../images/stardust.png);
+	width: 100%;
+	height: 6000px;
+	position: relative;
+}
+
+#cloud3 {
+	display: block;
+	top: 600px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;	
+	z-index: 50;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+#cloud {
+	display: block;
+	top: 2500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	z-index: 50;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+#cloud2 {
+	display: block;
+	top: 1800px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	z-index: 700;
+}
+
+#cloud4 {
+	display: block;
+	top: 2800px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;	
+	z-index: 700;
+}
+
+#tera {
+	display: block;
+	top: 1700px;
+	width: 326px;
+	margin-left: auto;
+	margin-right: 500px;
+	position: relative;	
+	z-index: 40;
+}
+
+#backtotop {
+	display: block;
+	top: 5500px;
+	width: 326px;
+	margin-left: 100px;
+	margin-right: auto;
+	position: absolute;	
+	z-index: 100;
+	-webkit-animation-duration: 2s;
+}
+
+#floyd {
+	display: block;
+	top: 1200px;
+	width: 436px;
+	margin-left: auto;
+	margin-right: 200px;
+	position: relative;	
+	z-index: 30;
+	-webkit-animation-duration: 3s;
+}
+
+#philip {
+	display: block;
+	top: 1060px;
+	width: 436px;
+	margin-left: 200px;
+	margin-right: auto;
+	position: relative;	
+	z-index: 30;
+	-webkit-animation-duration: 3s;
+}
+
+#comment1 {
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 1100px;
+  left: 1157px;
+  background: url(../images/comment1.png);
+  background-size: 200px 182px;
+  position: absolute;
+  -webkit-animation-delay: 1.3s;
+}
+#comment2 {
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 1350px;
+  left:87px;
+  background: url(../images/comment2.png);
+  background-size: 200px 182px;
+  position: absolute;
+  -webkit-animation-delay: 2s;
+}
+#comment3 {
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 3150px;
+  left:510px;
+  background: url(../images/comment3.png);
+  background-size: 200px 182px;
+  position: absolute;
+  -webkit-animation-delay: 1s;
+
+}
+#comment4 {
+  display: block;
+  width: 200px;
+  height: 182px;
+  top: 6550px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/comment4.png);
+  background-size: 200px 182px;
+  position: absolute;
+  z-index: 100;
+}
+
+
+#moon {
+  display: block;
+  width: 500px;
+  top: 2900px;
+  position: absolute;
+  z-index: 100;
+}
+
+.transition {
+  top: 3020px;
+  width: 100%;
+  height: 798px;
+  background: url(../images/transition.png);
+  background-repeat: repeat-x;  
+  position: absolute;
+  z-index: 20;
+}
+
+.sky {
+  top: 3818px;
+  width: 100%;
+  height: 2182px;
+  background: url(../images/bluedust.png);
+  position: absolute;
+  z-index: 20;
+}
+
+.grass {
+	top: 6000px;
+	position: absolute;
+	width: 100%;
+	height: 285px;
+	background: url(../images/grass.png);
+	z-index: 100;
+}
+
+#dino {
+	top: 5550px;
+	position: absolute;
+	width: 100%;
+	height: 683px;
+	background: url(../images/scenery.png);
+	z-index: 50;
+	-webkit-animation-name: doge;
+	-webkit-animation-duration: 0.1s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes doge {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
